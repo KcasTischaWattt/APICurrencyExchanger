@@ -4,6 +4,7 @@ import com.myroj.coollok4.models.Currency;
 
 import java.util.List;
 
+@Repository
 public interface CurrencyRepository {
     List<Currency> findAll();
     Currency findByCode(String code);
